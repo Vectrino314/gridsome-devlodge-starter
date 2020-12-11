@@ -35,5 +35,10 @@ fields:
     - Nichlas W. Andersen
   label: Author
   default: Nichlas W. Andersen
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: Tags for posts
 pages:
 - journal/macos-development-environment.md
